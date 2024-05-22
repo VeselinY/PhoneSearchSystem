@@ -7,7 +7,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <link rel='stylesheet' type='text/css' href='style2.css'>
+    <link rel='stylesheet' type='text/css' href='style3.css'>
     <script src='main.js'></script>
 </head>
 <body>
@@ -45,8 +45,24 @@
             </ul>
         </nav>
     </header>
-    <div>
-        
+    <div class="form_div">
+        <form action="" method="get" id="sendQuestion" class="question_form">
+            <label><h2>Форма за контакт</h2></label>
+            <br>
+            <label>Име</label>
+            <input type="text" placeholder="Вашето име" name="user_name" class="name_field">
+            <br>
+            <label>Телефонен номер</label>
+            <input type="text" placeholder="телефонен номер" name="phone" class="phone_field">
+            <br>
+            <label>Имейл</label>
+            <input type="text" placeholder="Имейл" name="email" class="email_field">
+            <br>
+            <label>Запитване</label>
+            <textarea type="text" name="question" class="question_field">Въведете вашето запитване</textarea>
+            <br>
+            <button>Изпрати</button>
+        </form>
     </div>
 </body>
 </html>
